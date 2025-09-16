@@ -1,0 +1,32 @@
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #888;
+    padding: 10px 6px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+th {
+    font-weight: bold;
+    background: #fafafa;
+}
+
+td {
+    background: #fff;
+}
+
+@media (max-width: 800px) {
+    table, th, td {
+        font-size: 12px;
+        padding: 5px 2px;
+    }
+    table {
+        width: 100%;
+    }
+}
