@@ -1,0 +1,30 @@
+:root {
+    --facebook-blue: #1877f2;
+    --facebook-light-gray: #f0f2f5;
+}
+
+.bg-primary {
+    background-color: var(--facebook-blue) !important;
+}
+
+body {
+    background-color: var(--facebook-light-gray);
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-body .btn-light {
+    border: none;
+    background-color: transparent;
+}
+
+.card-body .btn-light:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.form-control:focus {
+    border-color: var(--facebook-blue);
+    box-shadow: 0 0 0 0.2rem rgba(24, 119, 242, 0.25);
+}
